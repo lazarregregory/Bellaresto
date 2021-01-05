@@ -1,0 +1,161 @@
+
+
+
+@media screen and (min-width: 991px) {
+    body{
+        width: 100%;
+        
+    }
+    header{
+        width: 100%;
+        height: 155px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+    } 
+    .titre{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+       
+    }
+    .titre a{
+        text-decoration: none;
+        color:black
+    }
+    
+    .ban{
+        Width:100%;
+        Height:490px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        color:white;
+        background: no-repeat center/ 100% url("img/imgban.png");
+        
+    }
+    .ban p{
+        padding-top: 26px;
+    }
+    .ban h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    #pizza h1{
+        font-size:50px;
+        text-align: center;
+        border: solid rgb(14, 14, 17)
+    }
+    #pizza h2{
+        font-size:40px;
+        text-align: center;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color:rgb(250,74,12,1);
+       
+    }
+    #pizza p{
+        font-size:25px;
+        font-weight: bold;
+        font-family:montserrat;
+    }
+    .cadre{
+        border: 2px solid rgb(250,74,12,1);
+        width: 300px;
+        height: 408px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }   
+        
+    .liste1{
+        display:flex;
+        justify-content: space-around;
+       
+    }
+    .imgtete{
+        width: 280px;
+        height: 170px;
+        padding-top: 10px;
+
+    }
+    hr{
+        margin-top: 5%;
+        margin-bottom: 8%;
+        margin-left:20%;
+        margin-right:20%
+    }
+    .pb{
+        width: 100%;
+        height: 550px;
+        margin-left:30px;
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    .pb h1{
+        font-size:50px;
+        font-weight: bold;
+        
+    }
+    .bonneapp{
+        Width:100%;
+        Height:490px;
+        background-image:url("img/imgbonneapp.png");
+        font-size:60px;
+        font-weight: bold;
+        color:white;
+        display:flex;
+        justify-content:center;
+    }
+    .bonneapp p{
+        display: flex;
+        align-items: center;
+    }
+    footer{
+        width: 100%;
+        height: 155px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #contact{
+        display: flex;
+        justify-content: space-around;
+        width: 24%;
+        
+    }
+    
+    #pizza input {
+        Width: 160px;
+        Height: 58px;
+        border-radius: 30px;
+        background-color: rgb(250,74,12,1);
+        color: white;
+        font-size: 27px;
+    }
+    .psuivante{
+        padding-top: 65px;
+        padding-left: 61px
+    }
+    .psuivante input{
+        Width: 220px;
+        Height: 70px;
+        border-radius: 30px;
+        background-color: rgb(9, 9, 12);
+        color: white;
+        font-size: 30px;
+
+    }
+    
+    
+   } 
+ 
+  
+
