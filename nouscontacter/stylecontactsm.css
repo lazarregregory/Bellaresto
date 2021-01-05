@@ -9,6 +9,10 @@
         display:flex;
         justify-content: space-around;
     }
+    .text-white a{
+        text-decoration: none;
+        color: white;
+    }
     .headerordi{
         display:none
     }
