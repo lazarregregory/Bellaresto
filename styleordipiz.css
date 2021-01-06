@@ -5,7 +5,7 @@
         margin:0px;
         
     }
-    .navbar{
+    .tete2{
         display:none
     }
     .headerordi{
@@ -73,10 +73,18 @@
     }
     .cadre{
         border:2px solid rgb(250,74,12,1);
-        width: 29%;
-        height: 400px;
+        width: 30%;
+        height: 480px;
         margin-top:22px
     }   
+    .ingr{
+        height: 81px;
+    }
+    
+    .titre ul{
+       display:flex;
+        justify-content: space-around;
+    }
         
     .prixbutton{
         display:flex;

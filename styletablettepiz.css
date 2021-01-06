@@ -51,9 +51,16 @@
     .cadre{
         border:2px solid rgb(250,74,12,1);
         width: 45%;
-        height: 400px;
+        height: 390px;
         margin-top:22px
     }   
+    .ingr{
+        height: 31px;
+    }
+    .container a{
+        display:flex;
+        justify-content: space-around;
+    }
         
     .prixbutton{
         display:flex;
