@@ -1,13 +1,24 @@
-@media screen and (max-width: 991px) {
+
+@media screen and (min-width: 991px) {
     body{
         width: 100%;
+        margin:0px;
+        
+    }
+    .tete2{
+        display:none
+    }
+    .headerordi{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     header{
         width: 100%;
-        height: 204px;
-        font-size: 16px;
+        height: 155px;
+        font-size: 25px;
         display: flex;
-        flex-direction: column;
         align-items: center;
     } 
     .titre{
@@ -22,16 +33,15 @@
     .titre a{
         text-decoration: none;
         color:black
-       
     }
     
     .ban{
         Width:100%;
-        Height:259px;
+        Height:490px;
         display:flex;
         flex-direction: column;
         align-items: center;
-        font-size: 15px;
+        font-size: 30px;
         color:white;
         background: no-repeat center/ 100% url("img/imgban.png");
         
@@ -40,45 +50,49 @@
         padding-top: 26px;
     }
     .ban h1{
-        font-size: 30px;
+        font-size: 60px;
         text-align: center;
     }
     
     #pizza h1{
-        font-size:40px;
+        font-size:80px;
         text-align: center;
-        border: solid rgb(14, 14, 17)
+        
     }  
     #pizza h2{
-        font-size:20px;
+        font-size:60px;
         text-align: center;
         -webkit-text-stroke: 1px;
         -webkit-text-stroke-color:rgb(250,74,12,1);
     
     }
     #pizza p{
-        font-size:10px;
+        font-size:30px;
         font-weight: bold;
         font-family:montserrat;
     }
     .cadre{
         border:2px solid rgb(250,74,12,1);
-        width: 175px;
-        height: 220px;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
+        width: 30%;
+        height: 480px;
         margin-top:22px
     }   
-        
-    .liste1{
-        display:flex;
+    .ingr{
+        height: 81px;
+    }
+    
+    .titre ul{
+       display:flex;
         justify-content: space-around;
-       
+    }
+        
+    .prixbutton{
+        display:flex;
+        justify-content: space-between;
     }
     .imgtete{
-        width: 150px;
-        height: 100px;
+        width: 100%;
+        height: 200px;
         padding-top: 10px;
 
     }
@@ -90,21 +104,21 @@
     }
     .pb{
         width: 100%;
-        height: 280px;
-        margin-left:30px;
+        height: 350px;
+        padding-left:15px;
         display:flex;
         justify-content:center;
         flex-direction: column;
-        font-size: 15px;
+        font-size: 25px;
     }
     .pb h1{
-        font-size:34px;
+        font-size:45px;
         font-weight: bold;
         
     }
     .bonneapp{
         Width:100%;
-        Height:295px;
+        Height:490px;
         background-image:url("img/imgbonneapp.png");
         font-size:40px;
         font-weight: bold;
@@ -131,12 +145,12 @@
     }
     
     #pizza input {
-        Width: 80px;
-        Height: 30px;
+        Width: 150px;
+        Height: 80px;
         border-radius: 30px;
         background-color: rgb(250,74,12,1);
         color: white;
-        font-size: 10px;
+        font-size: 35px;
     }  
     .psuivante{
         padding-top: 40px;
@@ -150,9 +164,12 @@
         background-color: rgb(9, 9, 12);
         color: white;
         font-size: 15px;
-       
 
     }
  
-   }
-   
+}
+    
+    
+
+  
+
