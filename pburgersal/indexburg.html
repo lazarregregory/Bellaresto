@@ -2,16 +2,16 @@
 <html>
 
 <head>
-    <title>menu salade</title>
+    <title>menu burger</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="stylesmartpiz.css" />
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="stylesmartburg.css" />
     <!-- smartphone -->
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="styletablettepiz.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="styletabletteburg.css" />
     <!-- tablette -->
-    <link rel="stylesheet" media="screen and (min-width: 992px)" href="styleordipiz.css" />
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="styleordiburg.css" />
     <!-- tous les autre ecran -->
 
 
@@ -27,11 +27,11 @@
                 <div class="container">
                     <div class="titre row ">
                         <ul class="text-white col-sm-12 col-md-12">
-                            <li href="">Home</li>
-                            <li href="">Pizza</li>
-                            <li href="">Burger</li>
-                            <li href="">Salade</li>
-                            <li href="">Contact</li>
+                            <a href="../indexpizza.html">Home</a>
+                            <a href="../indexpizza.html#pizza">pizza</a>
+                            <a href="#burger">burger</a>
+                            <a href="#salade">salade</a>
+                            <a href="#contact">contact</a>
                         </ul>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
             <nav class="navbar navbar-dark bg-dark">
                 <div class="container-fluid">
                     <div class="imglogo">
-                        <img src="img/logo.png">
+                        <img src="../img/logo.png">
                     </div>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tete"
@@ -54,13 +54,13 @@
         </div>
         <div class="headerordi">
             <div class="logo">
-                <img src="img\logo.png">
+                <img src="../img/logo.png">
             </div>
             <div class="titre">
-                <a href="#">Home</a>
-                <a href="#pizza">pizza</a>
-                <a href="pburger/index2burger.html#burger">burger</a>
-                <a href="psalade/index2salade.html#salade">salade</a>
+                <a href="../indexpizza.html">Home</a>
+                <a href="../indexpizza.html#pizza">pizza</a>
+                <a href="#burger">burger</a>
+                <a href="#salade">salade</a>
                 <a href="#contact">contact</a>
             </div>
         </div>
@@ -69,22 +69,22 @@
         <p>Food app</p>
         <h1>Chez Bella<br>chaque désir s'additionne</h1>
     </div>
-    <div id="pizza">
-        <h1>Nos pizza</h1>
-        <section id="pizzabasique">
+    <div id="burger">
+        <h1>Nos burgers</h1>
+        <section id="burgerbasique">
             <h2>les basics</h2>
             <div class="liste1 row row-cols-sm-1 row cols-md-2 row cols-lg-3 mx-3">
-
-
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="piz">
+                        <div class="collapse" id="cheese">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
+                                            <a>Steack</a>
+                                            <a>Double cheddar</a>
+                                            <a>Salade</a>
                                             <a>Tomate</a>
-                                            <a>Emmantale</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#piz" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#cheese" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -103,24 +103,26 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\reine.jpg">
-                            <p>Reine</p>
+                            <img class="imgtete" src="../img/cheese.jpg">
+                            <p>cheese/p>
                         </div>
                         <div class="prixbutton">
                             <P>8 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="fro">
+                        <div class="collapse" id="simple">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
+                                            <a>Steack</a>
+                                            <a>Cheddar</a>
+                                            <a>Salade</a>
                                             <a>Tomate</a>
-                                            <a>4 Fromage au choix</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -130,7 +132,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#fro" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#simple" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -139,25 +141,25 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\pizza.png">
-                            <p>4 Fromage</p>
+                            <img class="imgtete" src="../img/simple.jpg">
+                            <p>Le simple</p>
                         </div>
                         <div class="prixbutton">
-                            <P>10 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <P>8 $</P>
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="mar">
+                        <div class="collapse" id="chi">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
-                                            <a>Tomate</a>
-                                            <a>Emmantale</a>
-                                            <a>Jambon</a>
+                                            <a>Steack</a>
+                                            <a>Salade</a>
+                                            <a>Tenders</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -167,7 +169,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#mar" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#chi" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -176,32 +178,33 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\marg.jpg">
-                            <p>Margarita</p>
+                            <img class="imgtete" src="../img/chicken.jpg">
+                            <p>Chicken</p>
                         </div>
                         <div class="prixbutton">
                             <P>8 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
                 <hr>
         </section>
-        <section id="pizzacarni">
-            <h2>Les carnivores</h2>
+        <section id="burgerdouble">
+            <h2>Les doubles</h2>
             <div class="liste1 row row-cols-sm-1 row cols-md-2 row cols-lg-3 mx-3">
 
 
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="vi">
+                        <div class="collapse" id="ds">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
                                             <a>Tomate</a>
-                                            <a>Emmantale</a>
-                                            <a>5 viandes au choix</a>
+                                            <a>2 Steack</a>
+                                            <a>Cheddar</a>
+                                            <a>Salade</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -211,7 +214,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#vi" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#ds" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -220,25 +223,26 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\5viande.jpg">
-                            <p>5 viandes</p>
+                            <img class="imgtete" src="../img/dsteack.jpg">
+                            <p>Le double steack</p>
                         </div>
                         <div class="prixbutton">
                             <P>10 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="via">
+                        <div class="collapse" id="dc">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
                                             <a>Tomate</a>
-                                            <a>Emmantale</a>
-                                            <a>4 viandes au choix</a>
+                                            <a>Salade</a>
+                                            <a>2 tenders</a>
+                                            <a>Cheddar</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -248,7 +252,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#via" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#dc" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -257,25 +261,26 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\4viande.jpg">
-                            <p>4 viandes</p>
+                            <img class="imgtete" src="../img/2chicken.jpg">
+                            <p>Double chicken</p>
                         </div>
                         <div class="prixbutton">
                             <P>8 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="bac">
+                        <div class="collapse" id="db">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
-                                            <a>Tomate</a>
-                                            <a>Emmantale</a>
-                                            <a>Bacon</a>
+                                            <a>2 tomate</a>
+                                            <a>2 steack</a>
+                                            <a>2 cheddar</a>
+                                            <a>2 salade</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -285,7 +290,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#bac" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#db" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -294,69 +299,30 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\bacon.jpg">
-                            <p>Bacon</p>
+                            <img class="imgtete" src="../img/double.jpg">
+                            <p>Le double burger</p>
                         </div>
                         <div class="prixbutton">
                             <P>8 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
                 <hr>
         </section>
-        <section id="pizzavege">
-            <h2>Les végétariennes</h2>
+        <section id="salade">
+            <h1>Nos salades</h1>
             <div class="liste1 row row-cols-sm-1 row cols-md-2 row cols-lg-3 mx-3">
-
-
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="lv">
+                        <div class="collapse" id="ces">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
-                                            <a>Creme</a>
-                                            <a>Emmantale</a>
-                                            <a>Légumes verts</a>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <nav class="navbar navbar-dark bg-light">
-                            <div class="container">
-                                <p>Ingrédient</p>
-                                <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#lv" aria-controls="navbarToggleExternalContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="descrip">
-                        <div class="imgnom">
-                            <img class="imgtete" src="img\legvert.jpg">
-                            <p>Verte</p>
-                        </div>
-                        <div class="prixbutton">
-                            <P>9 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
-                        </div>
-                    </div>
-                </div>
-                <div class="cadre px-3 mx-3">
-                    <div class="ingr">
-                        <div class="collapse" id="veg">
-                            <div class="bg-dark">
-                                <div class="container">
-                                    <div class="titre row ">
-                                        <ul class="text-white col-sm-12 col-md-12">
+                                            <a>Poulet</a>
+                                            <a>Salade</a>
                                             <a>Tomate</a>
-                                            <a>Poivron</a>
-                                            <a>Aubergine</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -366,7 +332,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#veg" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#ces" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -375,25 +341,26 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\vege.jpg">
-                            <p>Végétarienne</p>
+                            <img class="imgtete" src="../img/cesar.jpg">
+                            <p>César/p>
                         </div>
                         <div class="prixbutton">
                             <P>8 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
                 <div class="cadre px-3 mx-3">
                     <div class="ingr">
-                        <div class="collapse" id="gri">
+                        <div class="collapse" id="nice">
                             <div class="bg-dark">
                                 <div class="container">
                                     <div class="titre row ">
                                         <ul class="text-white col-sm-12 col-md-12">
-                                            <a>Tomate</a>
-                                            <a>Emmantale</a>
-                                            <a>Légume grillé</a>
+                                            <a>Oeuf</a>
+                                            <a>Thon</a>
+                                            <a>Salade</a>
+                                            <a>Olive</a>
                                         </ul>
                                     </div>
                                 </div>
@@ -403,7 +370,7 @@
                             <div class="container">
                                 <p>Ingrédient</p>
                                 <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#gri" aria-controls="navbarToggleExternalContent"
+                                    data-bs-target="#nice" aria-controls="navbarToggleExternalContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -412,21 +379,58 @@
                     </div>
                     <div class="descrip">
                         <div class="imgnom">
-                            <img class="imgtete" src="img\legumeg.jpg">
-                            <p>La grillé</p>
+                            <img class="imgtete" src="../img/nice.jpg">
+                            <p>Salade nicoise</p>
                         </div>
                         <div class="prixbutton">
-                            <P>12 $</P>
-                            <input type="button" value="Buy" onclick="document.location.href='commande/commande.html';">
+                            <P>8 $</P>
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
                         </div>
                     </div>
                 </div>
-
+                <div class="cadre px-3 mx-3">
+                    <div class="ingr">
+                        <div class="collapse" id="avo">
+                            <div class="bg-dark">
+                                <div class="container">
+                                    <div class="titre row ">
+                                        <ul class="text-white col-sm-12 col-md-12">
+                                            <a>Avocat</a>
+                                            <a>Salade</a>
+                                            <a>Tomate</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-dark bg-light">
+                            <div class="container">
+                                <p>Ingrédient</p>
+                                <button class="navbar-toggler btn btn bg-dark" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#avo" aria-controls="navbarToggleExternalContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="descrip">
+                        <div class="imgnom">
+                            <img class="imgtete" src="../img/salade.png">
+                            <p>Salade avocat</p>
+                        </div>
+                        <div class="prixbutton">
+                            <P>8 $</P>
+                            <input type="button" value="Buy" onclick="document.location.href='../commande/commande.html';">
+                        </div>
+                    </div>
+                </div>
+                <hr>
         </section>
 
     </div>
-    <div class="psuivante">
-        <input type="button" value="Page suivante" onclick="document.location.href='pburger';">
+    <div class="pp">
+        <input type="button" value="Page precedente" onclick="document.location.href='../indexpizza.html';">
     </div>
 
     <div class="pb">
@@ -443,11 +447,11 @@
     </div>
     <footer>
 
-        <img class="logofooter" src="img\logo.png">
+        <img class="logofooter" src="../img\logo.png">
         <div id="contact">
-            <img src="img\twitter.png">
-            <img src="img\facebook.png">
-            <img src="img\instagram.png">
+            <img src="../img\twitter.png">
+            <img src="../img\facebook.png">
+            <img src="../img\instagram.png">
         </div>
         <h6>Copywright 2020 BienManger.com</h6>
 
